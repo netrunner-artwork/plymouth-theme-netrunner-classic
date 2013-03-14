@@ -1,3 +1,9 @@
+plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner3) enigma-1306; urgency=low
+
+  * Initial Enigma release
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Thu, 14 Mar 2013 21:07:05 +0100
+
 plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner2) dryland-te; urgency=low
 
   * Initial Dryland TE release
