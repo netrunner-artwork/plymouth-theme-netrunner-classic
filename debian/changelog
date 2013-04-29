@@ -1,3 +1,9 @@
+plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner4) enigma-1306; urgency=low
+
+  * New Enigma theme
+
+ -- Frédéric Gaudet <fred@linuxmint.com>  Mon, 29 Apr 2013 10:20:02 +0200
+
 plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner3) enigma-1306; urgency=low
 
   * Initial Enigma release
