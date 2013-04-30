@@ -19,24 +19,19 @@ anim.target_height =  0.4* 0.46 * Window.GetWidth();
 fun RotatedImage1 (index){
 	index = Math.Int(index);
 	if (!RotatedImageCache[index])
-		RotatedImageCache[index] = anim.original_image.Rotate((Math.Pi*-2*index)/anim.imagecount).Scale(anim.target_width, anim.target_height);
+		RotatedImageCache[index] = anim.scaled_image.Rotate((Math.Pi*-2*index)/anim.imagecount).Scale(anim.target_width, anim.target_height);
 
 	return RotatedImageCache[index];
 }
 
 anim.image= ImageNew("animation.png");
-anim.original_image= anim.image.Scale(anim.target_width, anim.target_width);
+anim.scaled_image= anim.image.Scale(anim.target_width, anim.target_height);
 
 anim.sprite = SpriteNew();
 anim.sprite.SetImage(RotatedImage1 (0));
 
-SpriteSetX (anim.sprite, SpriteWindowGetWidth()  / 2 + 25 );
-SpriteSetY (anim.sprite, SpriteWindowGetHeight() / 2);
-
-#anim.sprite.SetX( Window.GetWidth() / 2 );
-#anim.sprite.SetX((Window.GetX() + Window.GetWidth() - RotatedImage1(0).GetWidth()) / 2);
-#anim.sprite.SetY(Window.GetY() + Window.GetHeight() * 0.24);
-#anim.sprite.SetY(Window.GetHeight() / 2 - 75 );
+anim.sprite.SetX( Window.GetWidth() / 2 - anim.target_width / 2 );
+anim.sprite.SetY(Window.GetHeight() / 2 - anim.target_width / 2 );
 
 anim.angle = 0;
 anim.index = 0;
@@ -52,24 +47,19 @@ animlogo.target_height =  0.4* 0.46 * Window.GetWidth();
 fun RotatedImage2 (index){
 	index = Math.Int(index);
 	if (!RotatedImageCache[index])
-		RotatedImageCache[index] = animlogo.original_image.Rotate((Math.Pi*0*index)/animlogo.imagecount).Scale(animlogo.target_width, animlogo.target_height);
+		RotatedImageCache[index] = animlogo.scaled_image.Rotate((Math.Pi*0*index)/animlogo.imagecount).Scale(animlogo.target_width, animlogo.target_height);
 
 	return RotatedImageCache[index];
 }
 
-animlogo.image= ImageNew("anim-ubuntu-logo.PNG");
-animlogo.original_image= animlogo.image.Scale(animlogo.target_width, animlogo.target_width);
+animlogo.image= ImageNew("anim-netrunner-logo.png");
+animlogo.scaled_image = animlogo.image.Scale(animlogo.target_width, animlogo.target_height);
 
 animlogo.sprite = SpriteNew();
 animlogo.sprite.SetImage(RotatedImage2 (0));
 
-SpriteSetX (animlogo.sprite, SpriteWindowGetWidth()  / 2 + 25 );
-SpriteSetY (animlogo.sprite, SpriteWindowGetHeight() / 2);
-
-#animlogo.sprite.SetX( Window.GetWidth() / 2 + 15 );
-#animlogo.sprite.SetX((Window.GetX() + Window.GetWidth() - RotatedImage2(0).GetWidth()) / 2);
-#animlogo.sprite.SetY(Window.GetY() + Window.GetHeight() * 0.27);
-#animlogo.sprite.SetY(Window.GetHeight() / 2 - 62 );
+animlogo.sprite.SetX( Window.GetWidth() / 2 - animlogo.target_width  / 2  );
+animlogo.sprite.SetY(Window.GetHeight() / 2 - animlogo.target_height / 2 );
 
 animlogo.angle = 0;
 animlogo.index = 0;
