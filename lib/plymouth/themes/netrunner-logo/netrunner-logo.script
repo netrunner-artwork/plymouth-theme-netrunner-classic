@@ -10,16 +10,27 @@ Window.SetBackgroundBottomColor(0.00, 0.00, 0.00);
 
 
 #---------- Animated circle variables ---------
+
+fun makeEven(number){
+	number = Math.Int(number);
+  
+	if (number % 2 == 0) {
+		number = number - 1;
+	}
+
+	return number;
+}
+
 anim.imagecount = 32;
-anim.target_width =  0.092 * Window.GetWidth();
-anim.target_height =  0.092 * Window.GetWidth();
+anim.target_width = makeEven(0.092 * Window.GetWidth());
+anim.target_height = anim.target_width;
 
 
 #----------- Rotate circle ----------------
 fun RotatedImage1 (index){
 	index = Math.Int(index);
 	if (!RotatedImageCache[index])
-		RotatedImageCache[index] = anim.scaled_image.Rotate((Math.Pi*-2*index)/anim.imagecount).Scale(anim.target_width, anim.target_height);
+		RotatedImageCache[index] = anim.scaled_image.Rotate((Math.Pi*2*index)/anim.imagecount).Scale(anim.target_width, anim.target_height);
 
 	return RotatedImageCache[index];
 }
@@ -39,8 +50,8 @@ anim.index = 0;
 
 #---------- Animated logo variables ------------
 animlogo.imagecount = 32;
-animlogo.target_width =  0.092 * Window.GetWidth();
-animlogo.target_height =  0.092 * Window.GetWidth();
+animlogo.target_width = makeEven(0.08 * Window.GetWidth());
+animlogo.target_height = anim.target_width;
 
 
 #----------- Rotate logo ----------------
