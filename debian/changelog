@@ -1,3 +1,9 @@
+plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner7) enigma-1306; urgency=low
+
+  * Updated script and pictures
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 03 Jun 2013 16:28:16 +0100
+
 plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner6) enigma-1306; urgency=low
 
   * New version of the script from Clemens
