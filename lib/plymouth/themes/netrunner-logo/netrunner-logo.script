@@ -23,7 +23,7 @@ fun tweakSize(number){
 }
 
 anim.imagecount = 32;
-anim.target_width = tweakSize(0.092 * Window.GetWidth());
+anim.target_width = tweakSize(0.090 * Window.GetWidth());
 anim.target_height = anim.target_width;
 
 
@@ -51,7 +51,7 @@ anim.index = 0;
 
 #---------- Animated logo variables ------------
 animlogo.imagecount = 32;
-animlogo.target_width = tweakSize(0.08 * Window.GetWidth());
+animlogo.target_width = tweakSize(0.085 * Window.GetWidth());
 animlogo.target_height = anim.target_width;
 
 
