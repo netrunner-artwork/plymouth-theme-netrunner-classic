@@ -11,8 +11,8 @@ Window.SetBackgroundBottomColor(0.00, 0.00, 0.00);
 
 #---------- Animated circle variables ---------
 anim.imagecount = 32;
-anim.target_width =  0.092 * Window.GetWidth();
-anim.target_height =  0.092 * Window.GetWidth();
+anim.target_width =  0.092 * Window.GetWidth() + 1;
+anim.target_height =  0.092 * Window.GetWidth() + 1;
 
 
 #----------- Rotate circle ----------------
@@ -224,3 +224,4 @@ fun quit_callback ()
 }
 
 Plymouth.SetQuitFunction(quit_callback);
+
