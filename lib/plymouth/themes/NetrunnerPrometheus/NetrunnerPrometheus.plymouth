@@ -1,0 +1,7 @@
+[Plymouth Theme]
+Name=NetrunnerPrometheus
+Description=NetrunnerPrometheus
+ModuleName=script
+[script]
+ImageDir=/lib/plymouth/themes/NetrunnerPrometheus
+ScriptFile=/lib/plymouth/themes/NetrunnerPrometheus/mdv.script
