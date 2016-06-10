@@ -8,6 +8,7 @@ Build-Depends: debhelper (>= 6), dh-make
 Package: plymouth-theme-netrunner-logo
 Architecture: all
 Depends: ${misc:Depends}, plymouth, plymouth-label
+Recommends: plymouth-theme-netrunner-text
 Provides: plymouth-theme
 Description: graphical boot animation and logger - netrunner-logo theme
  Plymouth is an application that runs very early in the boot process
