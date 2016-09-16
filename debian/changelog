@@ -1,53 +1,53 @@
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner9) saucy; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner9) saucy; urgency=low
 
   * Bump version number for next Netrunner release
   * Change distro name to saucy
 
  -- Leszek Lesner <leszek@zevenos.com>  Tue, 15 Oct 2013 11:51:57 +0200
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner8) enigma-1306; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner8) enigma-1306; urgency=low
 
   * Rebased script
 
  -- Clement Lefebvre <root@linuxmint.com>  Tue, 04 Jun 2013 03:10:41 +0100
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner7) enigma-1306; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner7) enigma-1306; urgency=low
 
   * Updated script and pictures
 
  -- Clement Lefebvre <root@linuxmint.com>  Mon, 03 Jun 2013 16:28:16 +0100
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner6) enigma-1306; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner6) enigma-1306; urgency=low
 
   * New version of the script from Clemens
 
  -- Clement Lefebvre <root@linuxmint.com>  Mon, 03 Jun 2013 14:56:17 +0100
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner5) enigma-1306; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner5) enigma-1306; urgency=low
 
-  * Shrink logo
+  * Shrink classic
 
  -- Frédéric Gaudet <fred@linuxmint.com>  Fri, 17 May 2013 08:56:23 +0200
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner4) enigma-1306; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner4) enigma-1306; urgency=low
 
   * New Enigma theme
 
  -- Frédéric Gaudet <fred@linuxmint.com>  Mon, 29 Apr 2013 10:20:02 +0200
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner3) enigma-1306; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner3) enigma-1306; urgency=low
 
   * Initial Enigma release
 
  -- Frédéric Gaudet <fred@linuxmint.com>  Thu, 14 Mar 2013 21:07:05 +0100
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner2) dryland-te; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner2) dryland-te; urgency=low
 
   * Initial Dryland TE release
 
  -- Frédéric Gaudet <fred@linuxmint.com>  Wed, 10 Oct 2012 15:00:44 +0200
 
-plymouth-theme-netrunner-logo (0.8.4-0ubuntu3-1netrunner1) enigma; urgency=low
+plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner1) enigma; urgency=low
 
   * Initial enigma release
 
