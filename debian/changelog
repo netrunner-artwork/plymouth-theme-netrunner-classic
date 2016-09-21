@@ -1,4 +1,4 @@
-plymouth-theme-netrunner-classic (0.8.4-0ubuntu3-1netrunner9) saucy; urgency=low
+plymouth-theme-netrunner-classic (0.8.4) saucy; urgency=low
 
   * Bump version number for next Netrunner release
   * Change distro name to saucy
