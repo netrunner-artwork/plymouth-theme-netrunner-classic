@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 6), dh-make
 
 Package: plymouth-theme-netrunner-classic
 Architecture: all
-Depends: ${misc:Depends}, plymouth, plymouth-label
+Depends: ${misc:Depends}, plymouth
 Provides: plymouth-theme
 Breaks: plymouth-theme-netrunner-text
 Replaces: plymouth-theme-netrunner-text
