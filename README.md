@@ -1,4 +1,4 @@
-# plymouth-theme-netrunner-logo
+# plymouth-theme-netrunner-classic
 
 Netrunner Logo for Plymouth
 
