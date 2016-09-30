@@ -20,9 +20,7 @@ case "$1" in
     configure)
 	update-alternatives \
 		--install /usr/share/plymouth/themes/default.plymouth default.plymouth \
-		/usr/share/plymouth/themes/netrunner-logo/netrunner-logo.plymouth 150 \
-		--slave /usr/share/plymouth/themes/default.grub default.plymouth.grub \
-		/usr/share/plymouth/themes/netrunner-logo/netrunner-logo.grub
+		/usr/share/plymouth/themes/netrunner-logo/netrunner-logo.plymouth 150
 
 	if which update-initramfs >/dev/null 2>&1
 	then
@@ -33,6 +31,7 @@ case "$1" in
 	then
 	    update-grub2
 	fi
+	plymouth-set-default-theme -R netrunner-logo
 	;;
 
     abort-upgrade|abort-deconfigure|abort-remove)
@@ -46,3 +45,5 @@ esac
 
 #DEBHELPER#
 exit 0
+0
+
